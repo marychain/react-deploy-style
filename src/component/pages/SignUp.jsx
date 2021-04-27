@@ -34,7 +34,7 @@ export class SignUp extends Component {
             localStorage.setItem('email', email);
             localStorage.setItem('password', password);
             alert('You have successfully registered. Go SignIn');
-
+            e.preventDefault();
         };
 
         
