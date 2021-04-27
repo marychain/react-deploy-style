@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import icon from '../assets/img/padlock.png';
+import { Link } from 'react-router-dom';
 
 export class SignUp extends Component {
 
@@ -32,7 +33,8 @@ export class SignUp extends Component {
             localStorage.setItem('lastName', lastName);
             localStorage.setItem('email', email);
             localStorage.setItem('password', password);
-            alert('You have successfully registered. Go SignIn')
+            alert('You have successfully registered. Go SignIn');
+
         };
 
         
@@ -60,7 +62,7 @@ export class SignUp extends Component {
                     </div>
                     <button type='submit' onClick={this.onBtnClickHandler} className='form__btn'>Sign Up</button>
                     <p className='form__item__forgot'>
-                        Already registered? <a className='form__item__a' href='/'>Sign in</a>
+                        Already registered? <Link to='/'>SignIn</Link>
                     </p>
                 </form>
                 <div className='panel panel-default'>

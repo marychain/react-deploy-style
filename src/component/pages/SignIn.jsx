@@ -3,6 +3,7 @@ import { useContext } from 'react';
 import { useHistory } from 'react-router';
 import { Store } from '../../App';
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 
 export const SignIn = () => {
     const [ firstName ] = useState(localStorage.getItem('firstName'));
@@ -40,8 +41,6 @@ export const SignIn = () => {
 
         try {
             if (user.email === email && user.password === password) {
-                // alert('Error, you can not login. Please, fill in the form fields and try again.');
-                // history.push('/');
                 loginUser(user);
                 history.push('/account');
             } 
@@ -52,7 +51,6 @@ export const SignIn = () => {
         } catch (error) {
             alert('Error, you can not login, Try again.')
         }
-
 
     };
 
@@ -83,10 +81,10 @@ export const SignIn = () => {
                     <button type='submit' className='form__btn'>Sign In</button>
                     <div className='form__items__forgot'>
                         <p className='form__item__forgot'>
-                            Forgot  <a className='form__item__a' href="/">password?</a>
+                            Forgot  <a className='form__item__a' href="#">password?</a>
                         </p>
                         <p className='form__item__forgot'>
-                            Don`t have an account? <a className='form__item__a' href='/signup'> Sign up</a>
+                            Don`t have an account? <Link className='form__item__a' to='/signup'>SignUp</Link>
                         </p>
                     </div>
                 </form>
