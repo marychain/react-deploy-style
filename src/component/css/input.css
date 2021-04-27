@@ -1,0 +1,39 @@
+.form__items {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form__item__name {
+    display: flex;
+}
+.form__item__name__input {
+    padding: 10px;
+    background-color: rgb(37, 36, 36);
+    border: 0.01em solid #eee9d6;
+    border-radius: 7px;
+    color:  #fff;
+    margin: 10px 8px 20px;
+    width: 130px;
+}
+
+.form__items__checkbox {
+    text-align: start;
+    width: 300px;
+    margin-left: 40px;
+    font-size: 15px;
+
+}
+
+.form__item__input {
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(37, 36, 36);
+    border: 0.01em solid #eee9d6;
+    border-radius: 7px;
+    color:  #fff;
+    width: 300px;
+}
+

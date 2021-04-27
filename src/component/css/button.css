@@ -1,0 +1,19 @@
+.form__btn,
+.user__logout {
+    background-color: rgb(149, 209, 236);
+    color: rgb(37, 36, 36);
+    width: 320px;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form__btn:hover,
+.user__logout:hover {
+    background-color: rgb(218, 92, 176);
+}

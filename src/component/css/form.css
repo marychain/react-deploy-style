@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto-Light.ttf);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    background-color: rgb(37, 36, 36);
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.form__h3 {
+    margin: 0 0 10px 0;
+}
+
+.form__item__a {
+    text-decoration: none;
+    color: rgb(218, 92, 176);
+    transition: 0.5s;
+    padding: 0 5px;
+}
+
+.form__item__a:hover {
+    color: rgb(149, 209, 236);
+}
+
+.form__items__forgot {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    width: 310px;
+    justify-content: space-between;
+    padding: 0 40px 10px;
+}
+

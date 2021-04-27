@@ -1,0 +1,12 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.user__hello {
+    color: rgb(218, 92, 176);
+    font-size: 20px;
+    font-weight: 700;
+}
