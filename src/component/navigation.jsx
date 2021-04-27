@@ -4,6 +4,10 @@ const links = [
     {
         to: '/',
         label: 'SignIn'
+    },
+    {
+        to: '/signup',
+        label: 'SignUp'
     }
 ];
 
