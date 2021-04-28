@@ -34,7 +34,7 @@ export class SignUp extends Component {
             localStorage.setItem('email', email);
             localStorage.setItem('password', password);
             
-            //alert('You have successfully registered. Go SignIn');
+            alert('You have successfully registered. Go SignIn');
             e.stopPropagation();
         };
 
@@ -61,9 +61,7 @@ export class SignUp extends Component {
                             <label className='form__label__checkbox' htmlFor='customCheck1'>I want to receive inspiration, marketing promotions and updates via email.</label>
                         </div>
                     </div>
-                    {/* <button type='submit' onClick={this.onBtnClickHandler} className='form__btn'> */}
                     <Link onClick={this.onBtnClickHandler} className='form__btn__link form__item__a' to='/'>SignIn</Link>
-                    {/* </button> */}
                     <p className='form__item__forgot'>
                         Already registered? <Link className='form__item__link' to='/'>SignIn</Link>
                     </p>
