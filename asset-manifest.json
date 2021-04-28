@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-deploy-style/static/css/main.d239114d.chunk.css",
-    "main.js": "/react-deploy-style/static/js/main.de922cad.chunk.js",
-    "main.js.map": "/react-deploy-style/static/js/main.de922cad.chunk.js.map",
+    "main.css": "/react-deploy-style/static/css/main.c68e3ba3.chunk.css",
+    "main.js": "/react-deploy-style/static/js/main.d33bdd50.chunk.js",
+    "main.js.map": "/react-deploy-style/static/js/main.d33bdd50.chunk.js.map",
     "runtime-main.js": "/react-deploy-style/static/js/runtime-main.426b950e.js",
     "runtime-main.js.map": "/react-deploy-style/static/js/runtime-main.426b950e.js.map",
     "static/js/2.5e0d79fd.chunk.js": "/react-deploy-style/static/js/2.5e0d79fd.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.5197b26b.chunk.js": "/react-deploy-style/static/js/3.5197b26b.chunk.js",
     "static/js/3.5197b26b.chunk.js.map": "/react-deploy-style/static/js/3.5197b26b.chunk.js.map",
     "index.html": "/react-deploy-style/index.html",
-    "static/css/main.d239114d.chunk.css.map": "/react-deploy-style/static/css/main.d239114d.chunk.css.map",
+    "static/css/main.c68e3ba3.chunk.css.map": "/react-deploy-style/static/css/main.c68e3ba3.chunk.css.map",
     "static/js/2.5e0d79fd.chunk.js.LICENSE.txt": "/react-deploy-style/static/js/2.5e0d79fd.chunk.js.LICENSE.txt",
     "static/media/form.css": "/react-deploy-style/static/media/Roboto-Light.8be2d148.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.426b950e.js",
     "static/js/2.5e0d79fd.chunk.js",
-    "static/css/main.d239114d.chunk.css",
-    "static/js/main.de922cad.chunk.js"
+    "static/css/main.c68e3ba3.chunk.css",
+    "static/js/main.d33bdd50.chunk.js"
   ]
 }
