@@ -81,10 +81,10 @@ export const SignIn = () => {
                     <button type='submit' className='form__btn'>Sign In</button>
                     <div className='form__items__forgot'>
                         <p className='form__item__forgot'>
-                            Forgot  <a className='form__item__a' href="#">password?</a>
+                            Forgot  <a className='form__item__link' href="#">password?</a>
                         </p>
                         <p className='form__item__forgot'>
-                            Don`t have an account? <Link className='form__item__a' to='/signup'>SignUp</Link>
+                            Don`t have an account? <Link className='form__item__link' to='/signup'>SignUp</Link>
                         </p>
                     </div>
                 </form>

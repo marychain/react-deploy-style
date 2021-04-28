@@ -21,15 +21,17 @@
     margin: 0 0 10px 0;
 }
 
-.form__item__a {
+.form__item__a,
+.form__item__link {
     text-decoration: none;
     color: rgb(218, 92, 176);
     transition: 0.5s;
     padding: 0 5px;
+    font-weight: 700;
 }
 
 .form__item__a:hover {
-    color: rgb(149, 209, 236);
+    background-color: rgb(149, 209, 236);
 }
 
 .form__items__forgot {
@@ -39,5 +41,23 @@
     width: 310px;
     justify-content: space-between;
     padding: 0 40px 10px;
+}
+
+.form__btn__link {
+    background-color: rgb(149, 209, 236);
+    color: rgb(37, 36, 36);
+    width: 320px;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form__btn__link:hover {
+background-color: rgb(218, 92, 176);
 }
 
