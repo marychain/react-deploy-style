@@ -47,7 +47,7 @@ export const SignIn = () => {
             } 
             else {
             alert('Error, you can not login. Please, fill in the form fields and try again.');
-                history.push('/');
+                history.push('/react-deploy-style');
             }
         } catch (error) {
             alert('Error, you can not login, Try again.')

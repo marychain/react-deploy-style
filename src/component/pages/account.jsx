@@ -17,7 +17,7 @@ export const AccountPage = () => {
     const handleClick = () => {
         try {
             logoutUser();
-            history.push('/');
+            history.push('/react-deploy-style');
         } catch (error) {
             alert ('SMT goes wrong. You can not be logged out. Try again.')
         }

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const links = [
     {
-        to: '/',
+        to: '/react-deploy-style',
         label: 'SignIn'
     },
     {
