@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-deploy-style/static/css/main.c68e3ba3.chunk.css",
-    "main.js": "/react-deploy-style/static/js/main.38c74a41.chunk.js",
-    "main.js.map": "/react-deploy-style/static/js/main.38c74a41.chunk.js.map",
-    "runtime-main.js": "/react-deploy-style/static/js/runtime-main.426b950e.js",
-    "runtime-main.js.map": "/react-deploy-style/static/js/runtime-main.426b950e.js.map",
-    "static/js/2.5e0d79fd.chunk.js": "/react-deploy-style/static/js/2.5e0d79fd.chunk.js",
-    "static/js/2.5e0d79fd.chunk.js.map": "/react-deploy-style/static/js/2.5e0d79fd.chunk.js.map",
-    "static/js/3.5197b26b.chunk.js": "/react-deploy-style/static/js/3.5197b26b.chunk.js",
-    "static/js/3.5197b26b.chunk.js.map": "/react-deploy-style/static/js/3.5197b26b.chunk.js.map",
+    "main.css": "/react-deploy-style/static/css/main.2ac99e0f.chunk.css",
+    "main.js": "/react-deploy-style/static/js/main.0fe64a60.chunk.js",
+    "main.js.map": "/react-deploy-style/static/js/main.0fe64a60.chunk.js.map",
+    "runtime-main.js": "/react-deploy-style/static/js/runtime-main.b9a27a0a.js",
+    "runtime-main.js.map": "/react-deploy-style/static/js/runtime-main.b9a27a0a.js.map",
+    "static/js/2.efe78db4.chunk.js": "/react-deploy-style/static/js/2.efe78db4.chunk.js",
+    "static/js/2.efe78db4.chunk.js.map": "/react-deploy-style/static/js/2.efe78db4.chunk.js.map",
+    "static/js/3.82403a5f.chunk.js": "/react-deploy-style/static/js/3.82403a5f.chunk.js",
+    "static/js/3.82403a5f.chunk.js.map": "/react-deploy-style/static/js/3.82403a5f.chunk.js.map",
     "index.html": "/react-deploy-style/index.html",
-    "static/css/main.c68e3ba3.chunk.css.map": "/react-deploy-style/static/css/main.c68e3ba3.chunk.css.map",
-    "static/js/2.5e0d79fd.chunk.js.LICENSE.txt": "/react-deploy-style/static/js/2.5e0d79fd.chunk.js.LICENSE.txt",
+    "static/css/main.2ac99e0f.chunk.css.map": "/react-deploy-style/static/css/main.2ac99e0f.chunk.css.map",
+    "static/js/2.efe78db4.chunk.js.LICENSE.txt": "/react-deploy-style/static/js/2.efe78db4.chunk.js.LICENSE.txt",
     "static/media/form.css": "/react-deploy-style/static/media/Roboto-Light.8be2d148.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.426b950e.js",
-    "static/js/2.5e0d79fd.chunk.js",
-    "static/css/main.c68e3ba3.chunk.css",
-    "static/js/main.38c74a41.chunk.js"
+    "static/js/runtime-main.b9a27a0a.js",
+    "static/js/2.efe78db4.chunk.js",
+    "static/css/main.2ac99e0f.chunk.css",
+    "static/js/main.0fe64a60.chunk.js"
   ]
 }
