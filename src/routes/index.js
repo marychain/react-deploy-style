@@ -5,7 +5,7 @@ import { NotAllowPage } from '../component/pages/restricted';
 
 export const appRoutes = [
     {
-        path: '/',
+        path: '/react-deploy-style',
         exact: true,
         component: SignIn
     },

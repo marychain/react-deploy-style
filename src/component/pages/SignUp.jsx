@@ -11,19 +11,19 @@ export class SignUp extends Component {
             password: ''
         };
         
-        onChangeHandlerF = (e) => {
+        onChangeHandlerFirstName = (e) => {
             this.setState({ firstName: e.target.value })
         };
 
-        onChangeHandlerL = (e) => {
+        onChangeHandlerLastName = (e) => {
             this.setState({ lastName: e.target.value })
         };
 
-        onChangeHandlerE = (e) => {
+        onChangeHandlerEmail = (e) => {
             this.setState({ email: e.target.value })
         };
 
-        onChangeHandlerP = (e) => {
+        onChangeHandlerPassword = (e) => {
             this.setState({ password: e.target.value })
         };
 
@@ -51,11 +51,11 @@ export class SignUp extends Component {
                     <h3 className='form__header'>Sign Up</h3>
                     <div className='form__items'>
                         <div className='form__items__name'>
-                            <input type='text' className='form__item__name__input' name='firstName' onChange={this.onChangeHandlerF} value={this.state.firstName} placeholder='First Name*' />
-                            <input type='text' className='form__item__name__input' name='lastName' onChange={this.onChangeHandlerL} value={this.state.lastName} placeholder='Last Name*' />
+                            <input type='text' className='form__item__name__input' name='firstName' onChange={this.onChangeHandlerFirstName} value={this.state.firstName} placeholder='First Name*' />
+                            <input type='text' className='form__item__name__input' name='lastName' onChange={this.onChangeHandlerLastName} value={this.state.lastName} placeholder='Last Name*' />
                         </div>
-                        <input type='email' className='form__item__input' name='email' onChange={this.onChangeHandlerE} value={this.state.email} placeholder='Email Address*' />
-                        <input type='password' className='form__item__input'  name='password' onChange={this.onChangeHandlerP} value={this.state.password} placeholder='Password*' />
+                        <input type='email' className='form__item__input' name='email' onChange={this.onChangeHandlerEmail} value={this.state.email} placeholder='Email Address*' />
+                        <input type='password' className='form__item__input'  name='password' onChange={this.onChangeHandlerPassword} value={this.state.password} placeholder='Password*' />
                         <div className='form__items__checkbox'>
                             <input type='checkbox' className='form__item__checkbox' id='customCheck1' />
                             <label className='form__label__checkbox' htmlFor='customCheck1'>I want to receive inspiration, marketing promotions and updates via email.</label>

@@ -4,6 +4,7 @@ import { useHistory } from 'react-router';
 import { Store } from '../../App';
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
+import '../css/validation.css';
 
 export const SignIn = () => {
     const [ firstName ] = useState(localStorage.getItem('firstName'));
@@ -11,7 +12,6 @@ export const SignIn = () => {
     const [ email ] = useState(localStorage.getItem('email'));
     const [ password ] = useState(localStorage.getItem('password'));
     const [ rememberMe, setRememberMe ] = useState(false);
-
 
     const {actions: {
         loginUser
@@ -26,6 +26,7 @@ export const SignIn = () => {
 
         for (const {type, name, value} of event.target) {
             if (type === 'email') {
+                if (value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i))
                 user[name] = value
             }
         }
